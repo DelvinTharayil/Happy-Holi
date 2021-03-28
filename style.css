@@ -1,0 +1,950 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+ background-color: rgb(242, 51, 86);
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+body svg 
+{
+ height: 100%;
+ top: 0;
+}
+#HappyHoli
+{
+  animation: happyholiTFadeOut 500ms 8.6s ease forwards  ; 
+}
+
+svg #Happy #Vector-H
+{
+stroke-dashoffset: 610;
+stroke-dasharray: 610;
+animation: happyholi 1.5s  ease forwards ; 
+}
+svg #Happy #Vector-A
+{
+stroke-dashoffset: 260;
+stroke-dasharray: 260;
+animation: happyholi 1.3s 1s ease forwards ; 
+}
+svg #Happy #Vector-P
+{
+stroke-dashoffset: 315;
+stroke-dasharray: 315;
+animation: happyholi 1.2s 1.8s ease forwards ; 
+} 
+svg #Happy #Vector-P2
+{
+stroke-dashoffset: 310;
+stroke-dasharray: 310;
+animation: happyholi 1.2s 2.2s ease forwards ; 
+} 
+svg #Happy #Vector-Y
+{
+stroke-dashoffset: 430;
+stroke-dasharray: 430;
+animation: happyholi 1s 2.9s ease forwards ; 
+}
+
+
+svg #Holi #Vector-H2
+ {
+stroke-dashoffset: 2070;
+stroke-dasharray: 2070;
+animation: happyholi 1.5s 4s ease forwards ; 
+} 
+svg #Holi #Vector-O
+ {
+stroke-dashoffset: 330;
+stroke-dasharray: 330;
+animation: happyholi 1s 4.8s ease forwards ; 
+}
+svg #Holi #Vector-L
+ {
+stroke-dashoffset: 430;
+stroke-dasharray: 430;
+animation: happyholi 1s 5.1s ease forwards ; 
+}
+svg #Holi #Vector-I
+ {
+stroke-dashoffset: 280;
+stroke-dasharray: 280;
+animation: happyholi 0.8s 5.3s ease forwards ; 
+}
+svg #Holi #Vector-Idot
+ {
+stroke-dashoffset: 60;
+stroke-dasharray: 60;
+animation: happyholi 1s 6.1s ease forwards ; 
+}
+
+#Happy{
+    fill: rgba(233, 57, 44, 0);
+    animation: HappyFadeIn 1s 3.4s ease forwards  ; 
+}
+
+@keyframes HappyFadeIn{                   
+    to
+    {
+    fill: rgb(233, 57, 44);
+     }
+}
+
+#Created
+{
+    fill-opacity:0;
+    animation: designFadeIn 1s 11.5s linear forwards  ; 
+}
+
+svg .design {
+    fill-opacity:0;
+    animation: designFadeIn 1s 6.7s ease forwards  ; 
+}
+
+#cardBackground
+{   
+    opacity:0;
+    animation: cardFadeIn 1.5s 8.4s forwards;  
+}
+
+@keyframes designFadeIn{                   
+    to
+    {
+    fill-opacity: 1;
+     }
+}
+
+svg #happyholiT
+{
+    animation: happyholiTFadeOut 1000ms 8.3s ease forwards  ; 
+}
+
+
+@keyframes happyholiTFadeOut{                   
+    to
+    {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+#Animation-circle
+{
+    opacity: 0;
+    animation: cardFadeIn 1000ms 8.9s linear forwards  ; 
+}
+
+@keyframes circleFadeOut{                   
+    to
+    {
+      opacity: 1;
+    }
+}
+
+#borderText {
+    
+	animation: scale-in-ver-top 0.5s 10.7s linear forwards;
+}
+
+@keyframes scale-in-ver-top {
+
+    0% {
+        -webkit-transform: scaleY(0);
+                transform: scaleY(0);
+        -webkit-transform-origin: 0% 35%;
+                transform-origin: 0% 35%;
+      }
+    100%{
+      -webkit-transform: scaleY(2.2);
+              transform: scaleY(2.2);
+      -webkit-transform-origin: 0% 35%;
+              transform-origin: 0% 35%;
+    }
+  }
+
+@keyframes cardFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes happyholi{                   
+    to
+    {
+    stroke-dashoffset: 0;
+     }
+}
+
+#First-circle
+{
+transform-origin: bottom;
+ animation: Firstcircle 6000ms linear  infinite 
+}
+
+#Second-circle
+{
+transform-origin: right;
+ animation: Firstcircle 4000ms 1.2s linear reverse  infinite 
+}
+
+#Three-circle
+{
+transform-origin: right;
+ animation: Firstcircle 5000ms linear  infinite 
+}
+
+@keyframes Firstcircle {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+#Social-icon{
+	animation: bounce-in-bottom 1.1s 10.9s both;
+}
+
+@keyframes bounce-in-bottom {
+    0% {
+        -webkit-transform: translateY(500px);
+                transform: translateY(500px);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        opacity: 0;
+      }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+#DVector {
+    animation: vector 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector {
+    0% {
+        transform: translate(344.019257px, 248.673309px)
+    }
+
+    100% {
+        transform: translate(123.241856px, 1328.842085px)
+    }
+}
+
+#DVector-2 {
+    animation: vector-2 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-2 {
+    0% {
+        transform: translate(305.953598px, 598.935547px)
+    }
+
+    100% {
+        transform: translate(1272.139894px, 635.397400px)
+    }
+}
+
+#DVector-3 {
+    animation: vector-3 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-3 {
+    0% {
+        transform: translate(280.470116px, 407.386139px)
+    }
+
+    100% {
+        transform: translate(1412.486994px, 457.311325px)
+    }
+}
+
+#DVector-4 {
+    animation: vector-4 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-4 {
+    0% {
+        transform: translate(205.049782px, 315.491776px)
+    }
+
+    100% {
+        transform: translate(1222.568770px, 433.432297px)
+    }
+}
+
+#DVector-5 {
+    animation: vector-5 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-5 {
+    0% {
+        transform: translate(198.276863px, 174.243576px)
+    }
+
+    100% {
+        transform: translate(127.181863px, 1227.626471px)
+    }
+}
+
+#DVector-6 {
+    animation: vector-6 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-6 {
+    0% {
+        transform: translate(117.594883px, 287.022339px)
+    }
+
+    100% {
+        transform: translate(1146.943243px, 359.987305px)
+    }
+}
+
+#DVector-7 {
+    animation: vector-7 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-7 {
+    0% {
+        transform: translate(101.732189px, 130.572212px)
+    }
+
+    100% {
+        transform: translate(1003.779911px, 1142.767224px)
+    }
+}
+
+#DVector-8 {
+    animation: vector-8 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-8 {
+    0% {
+        transform: translate(170.738819px, 540.466934px)
+    }
+
+    100% {
+        transform: translate(1417.458612px, 536.150380px)
+    }
+}
+
+#DVector-9 {
+    animation: vector-9 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-9 {
+    0% {
+        transform: translate(71.083076px, 415.236801px)
+    }
+
+    100% {
+        transform: translate(1194.690091px, 470.316498px)
+    }
+}
+
+#DVector-10 {
+    animation: vector-10 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-10 {
+    0% {
+        transform: translate(188.229866px, 779.200958px)
+    }
+
+    100% {
+        transform: translate(525.219906px, -255.600730px)
+    }
+}
+
+#DVector-11 {
+    animation: vector-11 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-11 {
+    0% {
+        transform: translate(132.545403px, 647.691956px)
+    }
+
+    100% {
+        transform: translate(286.681424px, -147.312264px)
+    }
+}
+
+#DVector-12 {
+    animation: vector-12 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-12 {
+    0% {
+        transform: translate(75.129402px, 788.925262px)
+    }
+
+    100% {
+        transform: translate(376.489779px, -110.550820px)
+    }
+}
+
+#DVector-13 {
+    animation: vector-13 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-13 {
+    0% {
+        transform: translate(72.241953px, 931.602112px)
+    }
+
+    100% {
+        transform: translate(441.952002px, -174.490715px)
+    }
+}
+
+#DVector-14 {
+    animation: vector-14 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-14 {
+    0% {
+        transform: translate(420.043686px, 763.191040px)
+    }
+
+    100% {
+        transform: translate(505.291950px, -147.312121px)
+    }
+}
+
+#DVector-15 {
+    animation: vector-15 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-15 {
+    0% {
+        transform: translate(284.260429px, 781.027588px)
+    }
+
+    100% {
+        transform: translate(471.085866px, -103.898385px)
+    }
+}
+
+#DVector-16 {
+    animation: vector-16 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-16 {
+    0% {
+        transform: translate(305.152008px, 862.723267px)
+    }
+
+    100% {
+        transform: translate(-154.819852px, -69.898300px)
+    }
+}
+
+#DVector-17 {
+    animation: vector-17 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-17 {
+    0% {
+        transform: translate(376.489914px, 908.342621px)
+    }
+
+    100% {
+        transform: translate(-205.747872px, -116.577621px)
+    }
+}
+
+#DVector-18 {
+    animation: vector-18 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-18 {
+    0% {
+        transform: translate(616.400070px, 289.146500px)
+    }
+
+    100% {
+        transform: translate(1332.387185px, 349.402964px)
+    }
+}
+
+#DVector-19 {
+    animation: vector-19 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-19 {
+    0% {
+        transform: translate(581.549561px, 168.288723px)
+    }
+
+    100% {
+        transform: translate(1151.878675px, 1125.249623px)
+    }
+}
+
+#DVector-20 {
+    animation: vector-20 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-20 {
+    0% {
+        transform: translate(446.767715px, 120.791119px)
+    }
+
+    100% {
+        transform: translate(83.419861px, 1151.272131px)
+    }
+}
+
+#DVector-21 {
+    animation: vector-21 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-21 {
+    0% {
+        transform: translate(451.917236px, 275.834740px)
+    }
+
+    100% {
+        transform: translate(-235.070106px, 345.391413px)
+    }
+}
+
+#DVector-22 {
+    animation: vector-22 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-22 {
+    0% {
+        transform: translate(263.998520px, 124.465446px)
+    }
+
+    100% {
+        transform: translate(316.123328px, 1125.250692px)
+    }
+}
+
+#DVector-23 {
+    animation: vector-23 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-23 {
+    0% {
+        transform: translate(334.874451px, 68.822742px)
+    }
+
+    100% {
+        transform: translate(293.767451px, 1138.189831px)
+    }
+}
+
+#DVector-24 {
+    animation: vector-24 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-24 {
+    0% {
+        transform: translate(79.524593px, 627.914246px)
+    }
+
+    100% {
+        transform: translate(257.360768px, -78.840829px)
+    }
+}
+
+#DVector-25 {
+    animation: vector-25 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-25 {
+    0% {
+        transform: translate(133.069790px, 473.662369px)
+    }
+
+    100% {
+        transform: translate(1182.644746px, 571.018078px)
+    }
+}
+
+#DVector-26 {
+    animation: vector-26 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-26 {
+    0% {
+        transform: translate(594.470154px, 843.987366px)
+    }
+
+    100% {
+        transform: translate(1113.396689px, -174.490036px)
+    }
+}
+
+#DVector-27 {
+    animation: vector-27 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-27 {
+    0% {
+        transform: translate(517.116898px, 929.869171px)
+    }
+
+    100% {
+        transform: translate(-207.729426px, -27.049399px)
+    }
+}
+
+#DVector-28 {
+    animation: vector-28 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-28 {
+    0% {
+        transform: translate(737.221802px, 728.502533px)
+    }
+
+    100% {
+        transform: translate(667.226291px, -110.551071px)
+    }
+}
+
+#DVector-29 {
+    animation: vector-29 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-29 {
+    0% {
+        transform: translate(883.380463px, 339.913513px)
+    }
+
+    100% {
+        transform: translate(-274.560465px, 415.236313px)
+    }
+}
+
+#DVector-30 {
+    animation: vector-30 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-30 {
+    0% {
+        transform: translate(728.602173px, 931.343933px)
+    }
+
+    100% {
+        transform: translate(1296.639533px, -49.121691px)
+    }
+}
+
+#DVector-31 {
+    animation: vector-31 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-31 {
+    0% {
+        transform: translate(624.575775px, 810.740601px)
+    }
+
+    100% {
+        transform: translate(1197.184058px, 0.530480px)
+    }
+}
+
+#DVector-32 {
+    animation: vector-32 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-32 {
+    0% {
+        transform: translate(849.324310px, 908.326141px)
+    }
+
+    100% {
+        transform: translate(1285.637552px, 95.502102px)
+    }
+}
+
+#DVector-33 {
+    animation: vector-33 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-33 {
+    0% {
+        transform: translate(913.095184px, 753.299042px)
+    }
+
+    100% {
+        transform: translate(1258.422006px, 99.583593px)
+    }
+}
+
+#DVector-34 {
+    animation: vector-34 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-34 {
+    0% {
+        transform: translate(936.270386px, 834.907715px)
+    }
+
+    100% {
+        transform: translate(1387.780935px, 75.362799px)
+    }
+}
+
+#DVector-35 {
+    animation: vector-35 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-35 {
+    0% {
+        transform: translate(897.701782px, 584.860474px)
+    }
+
+    100% {
+        transform: translate(-367.301146px, 619.866003px)
+    }
+}
+
+#DVector-36 {
+    animation: vector-36 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-36 {
+    0% {
+        transform: translate(962.273438px, 660.780853px)
+    }
+
+    100% {
+        transform: translate(1129.060132px, 17.000262px)
+    }
+}
+
+#DVector-37 {
+    animation: vector-37 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-37 {
+    0% {
+        transform: translate(790.681305px, 531.243744px)
+    }
+
+    100% {
+        transform: translate(-450.483861px, 564.463840px)
+    }
+}
+
+#DVector-38 {
+    animation: vector-38 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-38 {
+    0% {
+        transform: translate(892.859131px, 509.934830px)
+    }
+
+    100% {
+        transform: translate(-274.560472px, 555.161060px)
+    }
+}
+
+#DVector-39 {
+    animation: vector-39 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-39 {
+    0% {
+        transform: translate(959.055420px, 441.525558px)
+    }
+
+    100% {
+        transform: translate(-332.666235px, 509.934828px)
+    }
+}
+
+#DVector-40 {
+    animation: vector-40 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-40 {
+    0% {
+        transform: translate(872.598389px, 197.101051px)
+    }
+
+    100% {
+        transform: translate(1098.866925px, 1317.061750px)
+    }
+}
+
+#DVector-41 {
+    animation: vector-41 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-41 {
+    0% {
+        transform: translate(836.612762px, 283.722099px)
+    }
+
+    100% {
+        transform: translate(-405.581331px, 349.403278px)
+    }
+}
+
+#DVector-42 {
+    animation: vector-42 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-42 {
+    0% {
+        transform: translate(793.931091px, 130.712524px)
+    }
+
+    100% {
+        transform: translate(1191.735791px, 987.378738px)
+    }
+}
+
+#DVector-43 {
+    animation: vector-43 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-43 {
+    0% {
+        transform: translate(946.820526px, 198.431641px)
+    }
+
+    100% {
+        transform: translate(-100.943187px, 294.275096px)
+    }
+}
+
+#DVector-44 {
+    animation: vector-44 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-44 {
+    0% {
+        transform: translate(669.808960px, 157.683212px)
+    }
+
+    100% {
+        transform: translate(1114.236803px, 1026.211990px)
+    }
+}
+
+#DVector-45 {
+    animation: vector-45 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-45 {
+    0% {
+        transform: translate(690.567230px, 66.120441px)
+    }
+
+    100% {
+        transform: translate(-88.888542px, 1097.837677px)
+    }
+}
+
+#DVector-46 {
+    animation: vector-46 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-46 {
+    0% {
+        transform: translate(746.492462px, 71.086712px)
+    }
+
+    100% {
+        transform: translate(1151.876055px, 1107.389118px)
+    }
+}
+
+#DVector-47 {
+    animation: vector-47 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-47 {
+    0% {
+        transform: translate(304.507980px, 529.348572px)
+    }
+
+    100% {
+        transform: translate(1371.026043px, 599.003484px)
+    }
+}
+
+#DVector-48 {
+    animation: vector-48 500ms 7.9s linear 1 normal forwards
+}
+
+@keyframes vector-48 {
+    0% {
+        transform: translate(729.880188px, 369.181503px)
+    }
+
+    100% {
+        transform: translate(-274.559241px, 487.802658px)
+    }
+}
+
+
+
+
+
