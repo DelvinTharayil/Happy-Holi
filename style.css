@@ -1,7 +1,7 @@
 *
 {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 body
@@ -16,6 +16,15 @@ body svg
  height: 100%;
  top: 0;
 }
+
+#HoliContainer{
+    padding-left: 5px;
+    height: 100vh;
+    min-width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
 #HappyHoli
 {
   animation: happyholiTFadeOut 500ms 8.6s ease forwards  ; 
@@ -105,6 +114,10 @@ animation: happyholi 1s 6.1s ease forwards ;
 svg .design {
     fill-opacity:0;
     animation: designFadeIn 1s 6.7s ease forwards  ; 
+}
+
+#AllDVector{
+    animation: happyholiTFadeOut 500ms 8.2s ease forwards  ; 
 }
 
 #cardBackground
@@ -282,8 +295,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(123.241856px, 1328.842085px)
-    }
+        transform: translate(123.241856px, 1328.842085px);
+ }
 }
 
 #DVector-2 {
@@ -296,8 +309,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1272.139894px, 635.397400px)
-    }
+        transform: translate(1272.139894px, 635.397400px);
+ }
 }
 
 #DVector-3 {
@@ -310,8 +323,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1412.486994px, 457.311325px)
-    }
+        transform: translate(1412.486994px, 457.311325px);
+ }
 }
 
 #DVector-4 {
@@ -324,8 +337,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1222.568770px, 433.432297px)
-    }
+        transform: translate(1222.568770px, 433.432297px);
+ }
 }
 
 #DVector-5 {
@@ -338,8 +351,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(127.181863px, 1227.626471px)
-    }
+        transform: translate(127.181863px, 1227.626471px);
+ }
 }
 
 #DVector-6 {
@@ -352,8 +365,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1146.943243px, 359.987305px)
-    }
+        transform: translate(1146.943243px, 359.987305px);
+ }
 }
 
 #DVector-7 {
@@ -366,8 +379,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1003.779911px, 1142.767224px)
-    }
+        transform: translate(1003.779911px, 1142.767224px);
+ }
 }
 
 #DVector-8 {
@@ -380,8 +393,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1417.458612px, 536.150380px)
-    }
+        transform: translate(1417.458612px, 536.150380px);
+ }
 }
 
 #DVector-9 {
@@ -394,8 +407,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1194.690091px, 470.316498px)
-    }
+        transform: translate(1194.690091px, 470.316498px);
+ }
 }
 
 #DVector-10 {
@@ -408,8 +421,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(525.219906px, -255.600730px)
-    }
+        transform: translate(525.219906px, -255.600730px);
+ }
 }
 
 #DVector-11 {
@@ -422,8 +435,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(286.681424px, -147.312264px)
-    }
+        transform: translate(286.681424px, -147.312264px);
+ }
 }
 
 #DVector-12 {
@@ -436,8 +449,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(376.489779px, -110.550820px)
-    }
+        transform: translate(376.489779px, -110.550820px);
+ }
 }
 
 #DVector-13 {
@@ -450,8 +463,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(441.952002px, -174.490715px)
-    }
+        transform: translate(441.952002px, -174.490715px);
+ }
 }
 
 #DVector-14 {
@@ -464,8 +477,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(505.291950px, -147.312121px)
-    }
+        transform: translate(505.291950px, -147.312121px);
+ }
 }
 
 #DVector-15 {
@@ -478,8 +491,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(471.085866px, -103.898385px)
-    }
+        transform: translate(471.085866px, -103.898385px);
+ }
 }
 
 #DVector-16 {
@@ -492,8 +505,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-154.819852px, -69.898300px)
-    }
+        transform: translate(-154.819852px, -69.898300px);
+ }
 }
 
 #DVector-17 {
@@ -506,8 +519,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-205.747872px, -116.577621px)
-    }
+        transform: translate(-205.747872px, -116.577621px);
+ }
 }
 
 #DVector-18 {
@@ -520,8 +533,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1332.387185px, 349.402964px)
-    }
+        transform: translate(1332.387185px, 349.402964px);
+ }
 }
 
 #DVector-19 {
@@ -534,8 +547,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1151.878675px, 1125.249623px)
-    }
+        transform: translate(1151.878675px, 1125.249623px);
+ }
 }
 
 #DVector-20 {
@@ -548,8 +561,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(83.419861px, 1151.272131px)
-    }
+        transform: translate(83.419861px, 1151.272131px);
+ }
 }
 
 #DVector-21 {
@@ -562,8 +575,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-235.070106px, 345.391413px)
-    }
+        transform: translate(-235.070106px, 345.391413px);
+ }
 }
 
 #DVector-22 {
@@ -576,8 +589,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(316.123328px, 1125.250692px)
-    }
+        transform: translate(316.123328px, 1125.250692px);
+ }
 }
 
 #DVector-23 {
@@ -590,8 +603,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(293.767451px, 1138.189831px)
-    }
+        transform: translate(293.767451px, 1138.189831px);
+ }
 }
 
 #DVector-24 {
@@ -604,8 +617,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(257.360768px, -78.840829px)
-    }
+        transform: translate(257.360768px, -78.840829px);
+ }
 }
 
 #DVector-25 {
@@ -618,8 +631,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1182.644746px, 571.018078px)
-    }
+        transform: translate(1182.644746px, 571.018078px);
+ }
 }
 
 #DVector-26 {
@@ -632,8 +645,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1113.396689px, -174.490036px)
-    }
+        transform: translate(1113.396689px, -174.490036px);
+ }
 }
 
 #DVector-27 {
@@ -646,8 +659,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-207.729426px, -27.049399px)
-    }
+        transform: translate(-207.729426px, -27.049399px);
+ }
 }
 
 #DVector-28 {
@@ -660,8 +673,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(667.226291px, -110.551071px)
-    }
+        transform: translate(667.226291px, -110.551071px);
+ }
 }
 
 #DVector-29 {
@@ -674,8 +687,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-274.560465px, 415.236313px)
-    }
+        transform: translate(-274.560465px, 415.236313px);
+ }
 }
 
 #DVector-30 {
@@ -688,8 +701,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1296.639533px, -49.121691px)
-    }
+        transform: translate(1296.639533px, -49.121691px);
+ }
 }
 
 #DVector-31 {
@@ -702,8 +715,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1197.184058px, 0.530480px)
-    }
+        transform: translate(1197.184058px, 0.530480px);
+ }
 }
 
 #DVector-32 {
@@ -716,8 +729,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1285.637552px, 95.502102px)
-    }
+        transform: translate(1285.637552px, 95.502102px);
+ }
 }
 
 #DVector-33 {
@@ -730,8 +743,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1258.422006px, 99.583593px)
-    }
+        transform: translate(1258.422006px, 99.583593px);
+ }
 }
 
 #DVector-34 {
@@ -744,8 +757,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1387.780935px, 75.362799px)
-    }
+        transform: translate(1387.780935px, 75.362799px);
+ }
 }
 
 #DVector-35 {
@@ -758,8 +771,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-367.301146px, 619.866003px)
-    }
+        transform: translate(-367.301146px, 619.866003px);
+ }
 }
 
 #DVector-36 {
@@ -772,8 +785,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1129.060132px, 17.000262px)
-    }
+        transform: translate(1129.060132px, 17.000262px);
+ }
 }
 
 #DVector-37 {
@@ -786,8 +799,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-450.483861px, 564.463840px)
-    }
+        transform: translate(-450.483861px, 564.463840px);
+ }
 }
 
 #DVector-38 {
@@ -800,8 +813,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-274.560472px, 555.161060px)
-    }
+        transform: translate(-274.560472px, 555.161060px);
+ }
 }
 
 #DVector-39 {
@@ -814,8 +827,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-332.666235px, 509.934828px)
-    }
+        transform: translate(-332.666235px, 509.934828px);
+ }
 }
 
 #DVector-40 {
@@ -828,8 +841,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1098.866925px, 1317.061750px)
-    }
+        transform: translate(1098.866925px, 1317.061750px);
+ }
 }
 
 #DVector-41 {
@@ -842,8 +855,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-405.581331px, 349.403278px)
-    }
+        transform: translate(-405.581331px, 349.403278px);
+ }
 }
 
 #DVector-42 {
@@ -856,8 +869,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1191.735791px, 987.378738px)
-    }
+        transform: translate(1191.735791px, 987.378738px);
+ }
 }
 
 #DVector-43 {
@@ -870,8 +883,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-100.943187px, 294.275096px)
-    }
+        transform: translate(-100.943187px, 294.275096px);
+ }
 }
 
 #DVector-44 {
@@ -884,8 +897,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1114.236803px, 1026.211990px)
-    }
+        transform: translate(1114.236803px, 1026.211990px);
+ }
 }
 
 #DVector-45 {
@@ -898,8 +911,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-88.888542px, 1097.837677px)
-    }
+        transform: translate(-88.888542px, 1097.837677px);
+ }
 }
 
 #DVector-46 {
@@ -912,8 +925,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1151.876055px, 1107.389118px)
-    }
+        transform: translate(1151.876055px, 1107.389118px);
+ }
 }
 
 #DVector-47 {
@@ -926,8 +939,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(1371.026043px, 599.003484px)
-    }
+        transform: translate(1371.026043px, 599.003484px);
+ }
 }
 
 #DVector-48 {
@@ -940,8 +953,8 @@ transform-origin: right;
     }
 
     100% {
-        transform: translate(-274.559241px, 487.802658px)
-    }
+        transform: translate(-274.559241px, 487.802658px);
+ }
 }
 
 
